@@ -1,0 +1,175 @@
+body {
+	margin: 0px;
+}
+
+.header {
+	background-color: #e37222;
+	width: 1366px;
+	height: 91px;
+	position: absolute;
+}
+
+.dropbtn {
+	position: relative;
+	top: 8px;
+	left: 50px;
+	background-color: #07889b;
+	color: white;
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+	max-height: 75px;
+	max-width: 75px;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #66b9bf;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.drop-content {
+	display: none;
+	position: absolute;
+	background-color: yellow;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.drop-content a:hover {background-color: pink;}
+
+.show {display: block;}
+
+.mainlinks a {
+	position: relative;
+	left: 175px;
+	bottom: 90px;
+	color: #eeaa7b;
+	padding: 39px;
+	font-family: arial;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.mainlinks a:hover {background-color: pink;}
+
+.main {
+	min-height: 677px;
+	min-width: 1366px;
+	z-index: -1;
+}
+
+.group {
+	position: relative;
+	top: 91px;
+	width: 341.5px;
+	height: 341.5px;
+	z-index: -1;
+}
+
+#amphibians {
+	background-color: #66b9bf;
+}
+
+#arthropods {
+	position: absolute;
+	background-color: #07889b;
+	left: 341.5px;
+}
+
+#birds {
+	position: absolute;
+	background-color: #eeaa7b;
+	left: 683px;
+}
+
+#coel {
+	position: absolute;
+	background-color: #66b9bf;
+	left: 1024.5px;
+}
+
+#echino {
+	position: absolute;
+	background-color: #07889b;
+	top: 432.5px;
+}
+
+#fish {
+	position: absolute;
+	background-color: #eeaa7b;
+	top: 432.5px;
+	left: 341.5px;
+}
+
+#mammals {
+	position: absolute;
+	background-color: #66b9bf;
+	top: 432.5px;
+	left: 683px;
+}
+
+#mollusks {
+	position: absolute;
+	background-color: #07889b;
+	top: 432.5px;
+	left: 1024.5px;
+}
+
+#reptiles {
+	position: absolute;
+	background-color: #eeaa7b;
+	top: 774px;
+}
+
+#sponges {
+	position: absolute;
+	background-color: #66b9bf;
+	top: 774px;
+	left: 341.5px;
+}
+
+#worms {
+	position: absolute;
+	background-color: #07889b;
+	top: 774px;
+	left: 683px;
+}
+
+#funfacts {
+	position: absolute;
+	background-color: #eeaa7b;
+	top: 774px;
+	left: 1024.5px;
+}
+
+.group img {
+	position: relative;
+	height: 200px;
+	width: 250px;
+	left: 31.5px;
+	top: 31.5px;
+	border: 10px solid black;
+	border-radius: 2px;
+}
+
+.group h1 {
+	position: relative;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	top: 20px;
+}
